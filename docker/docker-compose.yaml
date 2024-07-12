@@ -1,4 +1,5 @@
 x-shared-env: &shared-api-worker-env
+  name: dify
   LOG_LEVEL: ${LOG_LEVEL:-INFO}
   DEBUG: ${DEBUG:-false}
   FLASK_DEBUG: ${FLASK_DEBUG:-false}
